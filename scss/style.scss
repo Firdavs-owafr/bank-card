@@ -1,0 +1,240 @@
+
+body{
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.promo{
+    height: 100%;
+    width: 33%;
+    background-image: url(../img/Group\ 10\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+.card-bg{
+        width: 447px;
+        height: 245px;
+        background-image: url(../img/Oval\ Copy\ 2.jpg);
+        border-radius: 15px;
+        margin-left: 200px;
+        margin-bottom: 37px;
+        padding: 28px 43px 26px 32px;
+        background-size: cover;
+.rounds{
+            display: flex;
+            align-items: center;
+            margin-bottom: 64px;
+ .round1{
+                width: 47px;
+                height: 47px;
+                background-color: white;
+                border-radius: 100%;
+            }
+ .round2{
+                width: 20px;
+                height: 20px;
+                border-radius: 100%;
+                border: 1px solid white;
+                margin-left: 16px;
+            }
+        }
+
+    }
+    .card{
+        width: 447px;
+        height: 245px;
+        border-radius: 12px;            
+        margin-left: 280px;
+        background: linear-gradient(168.73deg, #FFFFFF 5%, #D2D3D9 91.69%);
+        border-radius: 10px;
+    }
+    .card-password{
+        font-family: monospace;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 36px;
+        letter-spacing: 3.42222px;
+        color: #FFFFFF;
+        margin-bottom: 30px;
+    }
+
+    .person{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: monospace ;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        box-sizing: border-box;
+    }
+
+    .black{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        margin-top: 23px;   
+    }
+    .gray{
+        width: 80%;
+        height: 38px;
+        background-color: gray;     
+        margin-top: 24px;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-left: 42px;
+        margin-right: auto;
+        font-family: monospace;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: right;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+ }
+
+        .img1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+        }
+        .twobox{
+            width: 350px;
+            height: 352px;
+            margin-left: 580px;
+            margin-top: -400px;
+        
+            .Cardholder{
+            font-family: monospace;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 15px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #21092F;
+            
+            }
+
+            .tesk{
+                width: 350px;
+                height: 35px;
+                background: #FFFFFF;
+                border: 1px solid #DFDEE0;
+                border-radius: 8px;
+                margin-top: 10px;
+                color: gray;
+                opacity: 0.25;
+                display: flex;
+                align-items: center;
+            }
+            .card-number{
+                margin-top: 15px;
+                font-family: monospace;
+                font-size: 12px;
+                line-height: 15px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: #21092F;
+            }
+            .tesk2{
+                
+                width: 350px;
+                height: 35px;
+                background: #FFFFFF;
+                border: 1px solid #DFDEE0;
+                border-radius: 8px;
+                font-family: monospace;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 23px;
+                color: #21092F;
+                opacity: 0.25;
+                display: flex   ;
+                align-items: center;
+
+            }
+            .twowrite {
+                display: flex;
+                align-items: center;
+                margin-top: 15px;
+                .e{
+                    margin-right: 30px;
+                    font-family: 'Space Grotesk';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 15px;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    color: #21092F;
+                }
+            }
+            .oval{
+                display: flex;
+                align-items: center;
+                box-sizing: border-box;
+
+             .oval1{
+                width: 60px;
+                height: 40px;
+                background: #FFFFFF;
+                border: 1px solid #DFDEE0;
+                border-radius: 2px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: gray;
+
+            }
+            .oval2{
+                width: 60px;
+                height: 40px;
+                background: #FFFFFF;
+                border: 1px solid #DFDEE0;
+                border-radius: 2px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-left: 10px;
+                color: gray;
+            }
+            .oval3{
+                width: 191px;
+                height: 40px;
+                background: #FFFFFF;
+                border: 1px solid #DFDEE0;
+                border-radius: 2px;
+                display: flex;
+                align-items: center;
+                margin-left: 10px;
+                color: gray;
+            }
+        }
+
+        button{
+            width: 350px;
+            height: 53px;
+            background: #21092F;
+            border-radius: 8px;
+            font-family: monospace;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 23px;
+            color: #FFFFFF;
+            margin-top: 40px;
+        }
+}
+}
